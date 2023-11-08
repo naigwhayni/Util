@@ -1,0 +1,31 @@
+patch:
+# us_keyboard_layout: true # 键盘选项：应用美式键盘布局
+# show_notifications_when: growl_is_running # 状态通知，默认装有Growl时显示，也可设为全开（always）全关（never）
+  style:
+    horizontal: true # 候选窗横向显示
+    inline_preedit: false # 非内嵌编码行
+    font_face: "俪黑pro" # 我喜欢的字体名称
+    font_point: 18 # 字号
+    corner_radius: 10 # 窗口圆角半径
+    border_height: 12 # 窗口边界高度，大于圆角半径才有效果
+    border_width: 12 # 窗口边界宽度，大于圆角半径才有效果
+    color_scheme: my_ink # 选择配色方案
+
+  preset_color_schemes:
+    my_ink:
+      name: 墨池/ Ink
+      author: 何以解忧 <wang.haiyin@foxmail.com>
+      text_color: 0x5a5a5a
+      back_color: 0xeeffffff
+      cadidate_text_color: 0x000000
+      hilited_text_color: 0x000000
+        #      hilited_back_color: 0xdddddd
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0xcc000000
+      comment_text_color: 0x5a5a5a
+      hilited_comment_text_color: 0x808080
+
+  app_options:
+    com.jetbrains.WebStorm:
+      ascii_mode: true
+      vim_mode: true
